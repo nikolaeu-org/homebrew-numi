@@ -1,4 +1,4 @@
-class NumiCli < Formula
+class Numi < Formula
   desc "Calculator with natural language elements"
   homepage "https://numi.app"
   if OS.mac?
