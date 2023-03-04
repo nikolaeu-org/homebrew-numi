@@ -1,5 +1,5 @@
 class NumiCli < Formula
-  desc "Calculator with natural language elements"
+  desc "Smart calculator"
   homepage "https://numi.app"
   if OS.mac?
     if Hardware::CPU.intel?
