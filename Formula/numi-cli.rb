@@ -4,18 +4,18 @@ class NumiCli < Formula
   if OS.mac?
     if Hardware::CPU.intel?
       url "https://github.com/nikolaeu-org/numi-app/releases/download/v0.4/numi-cli-v0.4-x86_64-apple-darwin.tar.gz"
-      sha256 "c06aa01ba2031a2136c631e3ac0d7fbb20e75df589ed5c306a6e5c230abe3e6b"
+      sha256 "23e9c63eaa750ddaabf553a603bee16f23e3f8363cbff62b61eea1f523e74a29"
     elsif Hardware::CPU.arm?
       url "https://github.com/nikolaeu-org/numi-app/releases/download/v0.4/numi-cli-v0.4-aarch64-apple-darwin.tar.gz"
-      sha256 "ba7ddafe2e563c307f8ac99b1b783653f5e720df08e0d0b1e0d27dec19eb660c"
+      sha256 "bc7ee6bfe0fdbee7b480e80cf3e36cdc3001a75cafc758206e64a525e71ee527"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/nikolaeu-org/numi-app/releases/download/v0.4/numi-cli-v0.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f0396e4dbff5cb882560c6e8cce84d3a3f940ec5ac814b2b8064847e4cc676c6"
+      sha256 "4b8274166f7d486d7267aee87547862c4ce2a9dbacbfacd7134f3d3c526242b7"
     elsif Hardware::CPU.arm?
       url "https://github.com/nikolaeu-org/numi-app/releases/download/v0.4/numi-cli-v0.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "200667dd78b8defb2f3e9564d8a00418f002979d023a50a1380aafe098f1195f"
+      sha256 "d2daebbcec740e4d61ec17814f0902a60a2040bd1a43a6b67b44e41947924272"
     end
   end
   def install
